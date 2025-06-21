@@ -1,0 +1,92 @@
+/* For all pages to follow. */
+
+html {
+    background-color: antiquewhite;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h3, h4 {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+p, li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 100%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+.title {
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.body_text {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+/* Add a black background color to the top navigation */
+.bar {
+    background-color: #360041;
+    overflow: hidden;
+    padding: 1px;
+    border-radius: 10px;
+    box-shadow: 9px 9px 9px black;
+}
+  
+/* Style the links inside the navigation bar */
+.bar a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+/* Change the color of links on hover */
+.bar a:hover {
+    background-color: #ddd;
+    color: black;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+/* Home Page */
+
+.home_link_centered {
+    width: min(800px, 100%);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.home_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home_link a {
+    display: block;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(0, 7, 30);
+    border-radius: 25px;
+    width: 40%;
+    font-size: 300%;
+    text-align: center;
+    padding: 10% 10px;
+}
