@@ -1,3 +1,3 @@
-# Project 3: Jimmy's Gallery
+# Project 1: Jimmy's Gallery
 
-Jimmy's Gallery is a portfolio website that displays all of Jimmy Nguyen's projects.
+Jimmy's Gallery is a portfolio website that showcases all projects made by Jimmy Nguyen. It also dives into more about Jimmy Nguyen such as his story and how he became a software developer and engineer.
