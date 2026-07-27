@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Preview or download Jimmy Nguyen's software engineering resume.">
+  <title>Resume | Jimmy's Gallery</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="brand-row">
+      <a class="brand" href="welcome.html" aria-label="Jimmy's Gallery home">
+        <img src="images/logo.svg" alt="Jimmy's Gallery">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Open navigation menu</span>
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+      <a href="welcome.html">Welcome</a>
+      <a href="about.html">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a class="is-active" href="resume.html" aria-current="page">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <section class="content-panel resume-panel" aria-labelledby="resume-title">
+      <h1 id="resume-title">Resume</h1>
+      <p>Preview my resume below or download a copy for offline viewing.</p>
+      <div class="resume-actions">
+        <a class="button button--accent" href="assets/Jimmy_Nguyen_Resume.pdf" download>Download resume</a>
+        <a class="button" href="assets/Jimmy_Nguyen_Resume.pdf" target="_blank" rel="noopener noreferrer">Open in new tab</a>
+      </div>
+
+      <div class="resume-viewer" aria-label="Resume PDF preview">
+        <object data="assets/Jimmy_Nguyen_Resume.pdf" type="application/pdf">
+          <div class="resume-fallback">
+            <p>Your browser cannot display the embedded PDF preview.</p>
+            <a class="button button--accent" href="assets/Jimmy_Nguyen_Resume.pdf">Open the resume</a>
+          </div>
+        </object>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-current-year></span> Jimmy Nguyen.</p>
+  </footer>
+</body>
+</html>
