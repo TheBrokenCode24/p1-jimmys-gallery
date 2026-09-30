@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Learn about Jimmy Nguyen, a Computer Science graduate and software engineer from the University of Memphis.">
+  <title>About | Jimmy's Gallery</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="brand-row">
+      <a class="brand" href="welcome.html" aria-label="Jimmy's Gallery home">
+        <img src="images/logo.svg" alt="Jimmy's Gallery">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Open navigation menu</span>
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+      <a href="welcome.html">Welcome</a>
+      <a class="is-active" href="about.html" aria-current="page">About Me</a>
+      <a href="projects.html">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <section class="content-panel about-panel" aria-labelledby="about-title">
+      <h1 id="about-title">About Me</h1>
+      <p>I am a Computer Science graduate from the University of Memphis. I completed my Bachelor of Science with magna cum laude honors and gained practical experience through software internships and team projects.</p>
+      <p>My interest in Computer Science started in middle school, when I began exploring how software and websites worked. That curiosity grew into an interest in building useful applications, improving interfaces, working with databases, and solving problems through code.</p>
+      <p>My experience includes front-end development, Flask and Python routing, MySQL database work, UI/UX prototyping, and collaborative application development. I enjoy learning new technologies and turning ideas into maintainable, user-friendly software.</p>
+      <div class="about-actions">
+        <a class="button button--accent" href="projects.html">View my projects</a>
+        <a class="button" href="contact.html">Contact me</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-current-year></span> Jimmy Nguyen.</p>
+  </footer>
+</body>
+</html>

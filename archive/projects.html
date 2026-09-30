@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Explore software engineering and web development projects by Jimmy Nguyen.">
+  <title>Projects | Jimmy's Gallery</title>
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header class="site-header">
+    <div class="brand-row">
+      <a class="brand" href="welcome.html" aria-label="Jimmy's Gallery home">
+        <img src="images/logo.svg" alt="Jimmy's Gallery">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation">
+        <span class="sr-only">Open navigation menu</span>
+        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+      </button>
+    </div>
+    <nav id="primary-navigation" class="primary-nav" aria-label="Primary navigation">
+      <a href="welcome.html">Welcome</a>
+      <a href="about.html">About Me</a>
+      <a class="is-active" href="projects.html" aria-current="page">Projects</a>
+      <a href="resume.html">Resume</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main id="main-content" class="page-shell">
+    <section class="content-panel" aria-labelledby="projects-title">
+      <h1 id="projects-title">Projects</h1>
+      <p class="section-intro">A selection of applications, prototypes, and team projects that demonstrate my experience with front-end development, databases, and software engineering.</p>
+
+      <div class="project-grid">
+        <article class="project-card">
+          <h2>Jimmy's Gallery</h2>
+          <p>A responsive personal portfolio designed to present my background, projects, resume, and contact information in one consistent gallery-themed interface.</p>
+          <ul class="project-list">
+            <li>Built with HTML, CSS, and JavaScript.</li>
+            <li>Includes responsive navigation and accessible form behavior.</li>
+            <li>Designed the UI and framework in Canva.</li>
+            <li>Launched using GitHub.</li>
+          </ul>
+          <p class="tech-stack"><strong>Technologies:</strong> HTML, CSS, JavaScript, Canva</p>
+          <div class="card-actions">
+            <a class="text-link" href="https://jimmytnguyen.dev" target="_blank" rel="noopener noreferrer">Visit current site</a>
+            <a class="text-link" href="https://github.com/TheBrokenCode24" target="_blank" rel="noopener noreferrer">GitHub profile</a>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h2>Project Green Fork</h2>
+          <p>A team-built record-keeping application for CleanMemphis that supports organized community-project data and user accounts.</p>
+          <ul class="project-list">
+            <li>Contributed to database management and account creation.</li>
+            <li>Worked in a collaborative development workflow using GitHub and Kanban planning.</li>
+            <li>Helped demonstrate the project, which won first place at the University of Memphis Capstone Project Showcase.</li>
+          </ul>
+          <p class="tech-stack"><strong>Technologies:</strong> Ruby on Rails, React, GitHub, Excalidraw</p>
+          <div class="card-actions">
+            <p>GitHub Repository not public available due to confidentiality reasons.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <h2>UofM Arts and Crafts</h2>
+          <p>An e-commerce-style class project for showcasing arts and crafts through a structured, responsive web interface.</p>
+          <ul class="project-list">
+            <li>Used Ruby on Rails for the application structure.</li>
+            <li>Applied Bootstrap components for responsive page layouts.</li>
+            <li>Collaborated through GitHub using a shared repository.</li>
+          </ul>
+          <p class="tech-stack"><strong>Technologies:</strong> Ruby on Rails, Bootstrap, GitHub</p>
+          <div class="card-actions">
+            <a class="text-link" href="https://github.com/um-202510-comp-4081/project-REIJ" target="_blank" rel="noopener noreferrer">View repository</a>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span data-current-year></span> Jimmy Nguyen.</p>
+  </footer>
+</body>
+</html>
